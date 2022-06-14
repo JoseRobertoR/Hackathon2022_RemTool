@@ -10,7 +10,8 @@ Escribir un código en Python para validar el estado de un contenedor en otra VM
 - Posta 2 – [Conexión SSH](Postas/P2.md)
 - Posta 3 – [Logging](Postas/P3.md)
 - Posta 4 – [Enviar comandos](Postas/P4.md)
-- Posta 5 – [Enviar mail](Postas/P5.md)
+- Posta 5 – [Remediacion continua](Postas/P5.md)
+- Posta 6 – [Enviar mail](Postas/P6.md)
 
 ### Postas extra
 - PE 1 – [Variables Externas](Postas/PE1.md)
