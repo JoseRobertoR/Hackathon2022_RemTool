@@ -1,11 +1,74 @@
 # Hackathon2022_RemTool
 
-## Objetivo final
-Escribir un código en Python para validar el estado de un contenedor en otra VM de forma automática. Si el estado NO es ‘running’ ejecutar una remediación automática, enviando luego un mail y guardando un log con el estado en el cual se encuentra
+En este Hackathon buscamos reforzar conceptos y practicar en la escritura de codigo en Python enfocado en automatización.
+
+Para esto se les pedirá completar 6 postas obligatorias las cuales son individuales pero complementarias, por lo que se debe escribir un codigo individual para cada una de las posta, pero puede llegar a necesitarse lo escrito en alguna anterior.
+
+> Por ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**, entonces genero el nuevo archivo **posta_3.py** y agrego en este el contenido de **posta_1.py** y **posta_2.py** para utilizarlo nuevamente.
+
+> Otro ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**. Modifico **posta_1.py** y **posta_2.py** para poder usar parte de su codigo como funciones que puedo importar desde **posta_3.py** y reutilizalo.
+
+Por lo que al final de este Hackathon se deben tenes (como minimo) 6 archivos .py distintos para cada una de las postas.
+
+Luego existen 2 postas extras, las cuales son los 'Final Boss'. Estas se desbloquean una vez completadas las 6 obligatorias (y si queda tiempo). 
+
+## Infraestructura 
 
 <p align="center">
   <img src="Postas/Infra.png" alt="Infraestructura Hackathon"/>
 </p>
+
+La infra consiste en 2 VM's alojadas en la misma red y con una concexión SSH pre-configurada, las cuales 'HT22_Monitoring' tiene hosteado a travez de **Docker** un contenedor llamado **'test'** el cual se encuentra inicialmente *detenido* y 'HT22_Remediation' contiene **Python 3.7** para poder ejecutar nuestros scripts.
+
+En este ultimo 'HT22_Remediation' es en el cual nosotros debemos trabajar, escribiendo nuestros codigos y generando nuestros directorios de trabajo.
+
+> Se le proporcionará a cada grupo la IP, User y Password de 'HT22_Remediation', y la IP y User de 'HT22_Monitoring' para que puedan trabajar.
+
+## Comandos Linux utiles
+No es obligatorio el conocimiento profundo de manejo de CLI Linux ya que ejecutaremos tareas basicas.
+
+- Listar archivos
+~~~bash
+>>> ls
+~~~
+- Listar archivos (ocultos tambien)
+~~~bash
+>>> ls -a
+~~~
+- Moverse entre directorios
+~~~bash
+>>> cd <nombre_carpeta>
+~~~
+- Moverse al directorio root
+~~~bash
+>>> cd ~
+~~~
+- Crear directorio
+~~~bash
+>>> mkdir <nombre_carpeta>
+~~~
+- Crear archivo
+~~~bash
+>>> nano <nombre_archivo>
+~~~
+~~~bash
+>>> vim <nombre_archivo>
+~~~
+- Ver contenido archivo
+~~~bash
+>>> cat <nombre_archivo>
+~~~
+- Ejecutar script python3
+~~~bash
+>>> python3 <nombre_archivo>.py
+~~~
+- Descargar libreria python3
+~~~bash
+>>> pip3 <nombre_libreria>
+~~~
+
+## Objetivo final
+Escribir un código en Python para validar el estado de un contenedor en otra VM de forma automática. Si el estado NO es ‘running’ ejecutar una remediación automática, enviando luego un mail y guardando un log con el estado en el cual se encuentra
 
 ### Postas
 - Posta 1 – [Obtener JSON](Postas/P1.md)
@@ -20,4 +83,4 @@ Escribir un código en Python para validar el estado de un contenedor en otra VM
 - PE 2 – [Remediar interfaz](Postas/PE2.md)
 
 ## Validación de las etapas
-Se le pedirá que guarde, desde el programa, el output del código en un directorio previamente creado (‘/root/output/’) con el nombre ‘posta_n.txt’
+Se le pedirá que guarde, desde el programa, el output del código en un directorio previamente creado (‘/root/output/’) con el nombre ‘posta_n.txt’ (siendo 'n' el numero de posta)
