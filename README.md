@@ -3,7 +3,9 @@
 ## Objetivo final
 Escribir un código en Python para validar el estado de un contenedor en otra VM de forma automática. Si el estado NO es ‘running’ ejecutar una remediación automática, enviando luego un mail y guardando un log con el estado en el cual se encuentra
 
-![Infraestructura Hackathon](Postas/Infra.png)
+<p align="center">
+  <img src="Postas/Infra.png" alt="Infraestructura Hackathon"/>
+</p>
 
 ### Postas
 - Posta 1 – [Obtener JSON](Postas/P1.md)
