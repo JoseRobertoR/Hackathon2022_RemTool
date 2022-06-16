@@ -2,7 +2,7 @@
 
 En este Hackathon buscamos reforzar conceptos y practicar en la escritura de codigo en Python enfocado en automatización.
 
-Para esto se les pedirá completar 6 postas basicas y 2 finales las cuales son individuales pero complementarias, por lo que se debe escribir un codigo individual para cada una de las posta, pero puede llegar a necesitarse lo escrito en alguna anterior.
+Para esto se les pedirá completar 6 postas basicas y 2 finales, las cuales son individuales pero complementarias, por lo que se debe escribir un codigo individual para cada una de las posta, pero puede llegar a necesitarse lo escrito en alguna anterior.
 
 > Por ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**, entonces genero el nuevo archivo **posta_3.py** y agrego en este el contenido de **posta_1.py** y **posta_2.py** para utilizarlo nuevamente.
 
