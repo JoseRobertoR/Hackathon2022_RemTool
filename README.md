@@ -2,15 +2,13 @@
 
 En este Hackathon buscamos reforzar conceptos y practicar en la escritura de codigo en Python enfocado en automatización.
 
-Para esto se les pedirá completar 6 postas obligatorias las cuales son individuales pero complementarias, por lo que se debe escribir un codigo individual para cada una de las posta, pero puede llegar a necesitarse lo escrito en alguna anterior.
+Para esto se les pedirá completar 6 postas basicas y 2 finales las cuales son individuales pero complementarias, por lo que se debe escribir un codigo individual para cada una de las posta, pero puede llegar a necesitarse lo escrito en alguna anterior.
 
 > Por ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**, entonces genero el nuevo archivo **posta_3.py** y agrego en este el contenido de **posta_1.py** y **posta_2.py** para utilizarlo nuevamente.
 
 > Otro ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**. Modifico **posta_1.py** y **posta_2.py** para poder usar parte de su codigo como funciones que puedo importar desde **posta_3.py** y reutilizalo.
 
-Por lo que al final de este Hackathon se deben tenes (como minimo) 6 archivos .py distintos para cada una de las postas.
-
-Luego existen 2 postas extras, las cuales son los 'Final Boss'. Estas se desbloquean una vez completadas las 6 obligatorias (y si queda tiempo). 
+Por lo que si se completan TODAS las posta de este Hackathon se deben tener (como minimo) 8 archivos .py en 'HT22_Remediation'
 
 ## Infraestructura 
 
@@ -78,9 +76,9 @@ Escribir un código en Python para validar el estado de un contenedor en otra VM
 - Posta 5 – [Remediacion continua](Postas/P5.md)
 - Posta 6 – [Enviar mail](Postas/P6.md)
 
-### Postas extra
-- PE 1 – [Variables Externas](Postas/PE1.md)
-- PE 2 – [Remediar interfaz](Postas/PE2.md)
+### Postas Finales
+- PF 1 – [Variables Externas](Postas/PF1.md)
+- PF 2 – [Remediar interfaz](Postas/PF2.md)
 
 ## Validación de las etapas
 Se le pedirá que guarde, desde el programa, el output del código en un directorio previamente creado (‘/root/output/’) con el nombre ‘posta_n.txt’ (siendo 'n' el numero de posta)
