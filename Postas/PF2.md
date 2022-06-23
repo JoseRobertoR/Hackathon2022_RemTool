@@ -8,10 +8,13 @@ Para esta posta debemos escribir un código en python 'posta_8.py' que se conect
 
 Si el estado de la interfaz no es 'up' ejecutar los comandos 'int eth1/11' y 'no shut', siguiendo la estructura de logging y aviso por mail de las anteriores etapas.
 
-> Device_type = "cisco_xe"
-> Host = "10.54.100.248"
-> Username = "admin"
-> Password = "cisco123"
+> - Device_type = "cisco_xe"
+> 
+> - Host = "10.54.100.248"
+> 
+> - Username = "admin"
+> 
+> - Password = "cisco123"
 
 ## Contexto
 Un caso de automatizacion de networking puede ser este, en el cual tengo una interfaz de red de un equipo Nexus el cual necesito que este siempre 'up', por lo que le hago un seguimiento continuo para mantenerlo en este estado.
