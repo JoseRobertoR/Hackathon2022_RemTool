@@ -16,7 +16,7 @@ Por lo que si se completan TODAS las posta de este Hackathon se deben tener (com
   <img src="Postas/Infra.png" alt="Infraestructura Hackathon"/>
 </p>
 
-La infra consiste en 2 VM's alojadas en la misma red y con una concexión SSH pre-configurada, las cuales 'HT22_Monitoring' tiene hosteado a travez de **Docker** un contenedor llamado **'test'** el cual se encuentra inicialmente *detenido* y 'HT22_Remediation' contiene **Python 3.7** para poder ejecutar nuestros scripts.
+La infra consiste en 2 VM's alojadas en la misma red y con una concexión SSH pre-configurada, las cuales 'HT22_Monitoring' tiene hosteado a travez de **Docker** un contenedor por cada grupo con el nombre **'grupo_n'** (siendo 'n' el numero del grupo) el cual se encuentra inicialmente *detenido* y 'HT22_Remediation' contiene **Python 3.7** para poder ejecutar nuestros scripts.
 
 En este ultimo 'HT22_Remediation' es en el cual nosotros debemos trabajar, escribiendo nuestros codigos y generando nuestros directorios de trabajo.
 
