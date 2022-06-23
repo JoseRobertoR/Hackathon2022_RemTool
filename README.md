@@ -81,4 +81,4 @@ Escribir un código en Python para validar el estado de un contenedor en otra VM
 - PF 2 – [Remediar interfaz](Postas/PF2.md)
 
 ## Validación de las etapas
-Se le pedirá que guarde, desde el programa, el output del código en un directorio previamente creado (‘/root/output/’) con el nombre ‘posta_n.txt’ (siendo 'n' el numero de posta)
+Se le pedirá que guarde, desde el programa, el output del código en un directorio previamente creado (‘$HOME/output/’) con el nombre ‘posta_n.txt’ (siendo 'n' el numero de posta)
