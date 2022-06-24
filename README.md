@@ -21,6 +21,13 @@ La infra consiste en 2 VM's alojadas en la misma red y con una concexión SSH pr
 En este ultimo 'HT22_Remediation' es en el cual nosotros debemos trabajar, escribiendo nuestros codigos y generando nuestros directorios de trabajo.
 
 > Se le proporcionará a cada grupo la IP, User y Password de 'HT22_Remediation', y la IP y User de 'HT22_Monitoring' para que puedan trabajar.
+>
+> HT22_Monitoring:
+> - IP = 10.54.118.8
+> - USER = root
+>
+> HT22_Remediation:
+> - Conexión = ssh -p 55522 h2022-grpNN@190.111.211.46
 
 ## Comandos Linux utiles
 No es obligatorio el conocimiento profundo de manejo de CLI Linux ya que ejecutaremos tareas basicas.
