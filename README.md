@@ -8,7 +8,7 @@ Para esto se les pedirá completar 6 postas basicas y 2 finales, las cuales son 
 
 > Otro ejemplo, yo terminé de escribir mis archivos **posta_1.py** y **posta_2.py** los cuales funcionaron correctamente y debo escribir **posta_3.py** el cual integra lo realizado en **posta_1.py** y **posta_2.py**. Modifico **posta_1.py** y **posta_2.py** para poder usar parte de su codigo como funciones que puedo importar desde **posta_3.py** y reutilizalo.
 
-Por lo que si se completan TODAS las posta de este Hackathon se deben tener (como minimo) 8 archivos .py en 'HT22_Remediation'
+Por lo que si se completan TODAS las posta de este Hackathon se deben tener (como minimo) 8 archivos **'posta_n.py** (siendo 'n' el numero de posta) en 'HT22_Remediation'
 
 ## Infraestructura 
 
