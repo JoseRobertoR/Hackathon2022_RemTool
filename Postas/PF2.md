@@ -8,7 +8,7 @@ Para esta posta debemos escribir un código en python 'posta_8.py' que se conect
 
 Si el estado de la interfaz no es 'up' ejecutar los comandos 'int eth1/11' y 'no shut', siguiendo la estructura de logging y aviso por mail de las anteriores etapas.
 
-> - Device_type = "cisco_xe"
+> - Device_type = "cisco_nxos"
 > 
 > - Host = "10.54.100.248"
 > 
